@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     function getFormValue() {
-        const firstName = document.getElementById("firstName").value;
+        const firstName = document.querySelector('input[name="fname"]').value;
         const lastName = document.getElementById("lastName").value;
 
         // Concatenate first and last name
